@@ -24,6 +24,12 @@
                                     <action selector="StagesOfMembership:" destination="iq3-DA-WdX" eventType="touchUpInside" id="zqk-qZ-Dq6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vM-AN-GvM">
+                                <rect key="frame" x="145" y="451" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lBG-Ie-rgC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
