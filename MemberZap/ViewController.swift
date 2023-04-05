@@ -19,6 +19,7 @@ class ViewController: UIViewController, MembershipDataDelegate {
     
     func membershipImage(image: String) {
         membershipImage.image = UIImage(named: image)
+        
     }
     
 
@@ -26,6 +27,7 @@ class ViewController: UIViewController, MembershipDataDelegate {
     @IBOutlet weak var membershipImage: UIImageView!
     @IBOutlet weak var stagesLabel: UILabel!
     @IBOutlet weak var stagesDefination: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
